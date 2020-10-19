@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: swagger-spring
+Implementation-Version: 1.0.0
+Archiver-Version: Plexus Archiver
+Built-By: Ori
+Implementation-Vendor-Id: io.swagger
+Spring-Boot-Version: 1.5.22.RELEASE
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: io.swagger.Swagger2SpringBoot
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_265
+Implementation-URL: https://projects.spring.io/spring-boot/swagger-spr
+ ing/
+

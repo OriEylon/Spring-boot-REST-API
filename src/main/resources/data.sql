@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS ITEMS;
+
+CREATE TABLE ITEMS(
+inventory_code INT AUTO_INCREMENT PRIMARY KEY,
+item_no INT,
+name VARCHAR(100) NOT NULL,
+amount INT DEFAULT 0
+);
+
+INSERT INTO ITEMS(item_no,name,amount) VALUES
+(11,'item1',5),
+(12,'item2',55),
+(13,'item3',555);
